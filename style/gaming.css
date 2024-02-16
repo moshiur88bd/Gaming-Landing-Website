@@ -1,3 +1,60 @@
 body{
       font-family: "Work Sans", sans-serif;
 }
+
+/*Header related style*/
+
+.nav-container{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 240px;
+}
+.nav-img-content{
+      display: flex;
+      align-items: center;
+}
+.nav-img-content img{
+width: 86px;
+height: 40px;
+padding-right: 10px;
+}
+
+.nav-title{
+      font-family: Work Sans;
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #0B0223;
+}
+
+.nav-title-g{
+      color: #FF42A5;
+}
+.nav-items-content{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+}
+.nav-items-content p{
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #3C354F;
+      text-align: center;
+}
+
+.nav-btn{
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #3C354F;
+      text-align: center;
+      border: 0px;
+      border-radius: 8px;
+      background: rgba(11, 2, 35, 0.1);
+      padding: 10px 20px;
+}
+
+.u-icon{
+      width: 25px;
+      height: 20px;
+}

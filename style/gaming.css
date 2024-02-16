@@ -58,3 +58,66 @@ padding-right: 10px;
       width: 25px;
       height: 20px;
 }
+
+/* play section related style */
+.play-section{
+      display: flex;
+      background-image: url("/images/Group\ 14.png");
+      background-repeat: repeat-y;
+}
+
+.play-content{
+      padding-left: 240px;
+      padding-right: 250px;
+}
+
+.play-offer{
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+      color: #0B0223;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      
+}
+
+.play-shortname{
+      font-size: 95px;
+      font-weight: 800;
+      text-align: center;
+      text-transform: uppercase;
+      color: #F948B2; 
+      margin: 15px;     
+
+}
+
+.play-description{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+}
+
+.play-icon{
+      width: 18px;
+      height: 18px;
+}
+
+.sign-in{
+      background-color: #FF42A5;
+      border: 0;
+      border-radius: 48px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #FFFFFF;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 21px 40px;
+}
+
+.go-rogue{
+      background-color: #4EC5F7;
+}
+
+.play-banner img{
+     max-height: 550px;
+}

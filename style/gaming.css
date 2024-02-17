@@ -121,3 +121,22 @@ padding-right: 10px;
 .play-banner img{
      max-height: 550px;
 }
+
+
+
+
+/* responsive related style */
+@media screen and (max-width: 576px) {
+      .nav-container{
+            flex-direction: column;
+            padding: 20px;
+      }
+
+      .nav-img-content{
+            align-items: center;
+            justify-content: center;
+      }
+      .nav-items-content{
+            flex-direction: column;
+      }
+}

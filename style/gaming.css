@@ -85,7 +85,7 @@ padding-right: 10px;
 }
 
 .play-shortname{
-      font-size: 95px;
+      font-size: 6rem;
       font-weight: 800;
       text-align: center;
       text-transform: uppercase;
@@ -105,11 +105,15 @@ padding-right: 10px;
       height: 18px;
 }
 
+.play-name{
+      margin: 05px;
+}
+
 .sign-in{
       background-color: #FF42A5;
       border: 0;
       border-radius: 48px;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: 600;
       color: #FFFFFF;
       text-align: center;
@@ -119,11 +123,63 @@ padding-right: 10px;
 
 .go-rogue{
       background-color: #4EC5F7;
+      margin-top: 20px;
 }
 
 .play-banner img{
      max-height: 550px;
 }
+
+/* gamer section related style  */
+
+.gamer-section{
+      display: flex;
+      background-color: #FFF9FC;
+      padding: 0 240px;
+}
+.gamer-banner-img{
+      width: 100%;
+}
+
+
+.gamer-title{
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: right;
+      color: #F948B2;
+      margin: 0 10px;
+}
+
+.gamer-description{
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: right;
+      color: #534C64;
+      max-width: 500px;
+      margin: 20px 0px;
+}
+.know-more{
+      position: relative;
+      align-items: center;
+      margin-left: 50%;
+}
+.gamer-purpose{
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: right;
+      color: #534C64;
+}
+
+.gamer-queiet{
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-align: right;
+      color: #534C64;
+      margin: 20px 0px;
+}
+
+
+
 
 
 
@@ -171,7 +227,28 @@ padding-right: 10px;
             font-size: 38px;
             font-weight: 500;
             margin-bottom: 0;
-            padding-bottom: 0;
-            
+            padding-bottom: 0;            
       }
+
+      .gamer-section{
+            flex-direction: column;
+            padding: 20px;
+      }
+      .gamer-title{
+            font-size: 2.5rem;
+            text-align: center;
+      }
+      .gamer-description, .gamer-purpose{
+            text-align:center;
+      }
+      .know-more{
+            margin-left: 20%;
+      }
+
+      .gamer-queiet{
+            font-size: 1.3rem;
+            font-weight: 400;
+            text-align: center;
+      }
+      
 }

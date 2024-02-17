@@ -59,6 +59,9 @@ padding-right: 10px;
       height: 20px;
 }
 
+
+/*main section related style*/
+
 /* play section related style */
 .play-section{
       display: flex;
@@ -138,5 +141,37 @@ padding-right: 10px;
       }
       .nav-items-content{
             flex-direction: column;
+      }
+
+      .play-section{
+            flex-direction: column;
+            flex-direction: column-reverse;
+            background-repeat:no-repeat;
+      }
+
+      .play-content{
+            padding: 20px;
+      }
+      .banner-img{
+            width: 100%;
+      }
+
+      .sign-in{
+            padding: 10px 20px;
+            gap: 10px;
+      }
+
+      .play-shortname{
+            font-size: 80px;
+            font-weight: 700;
+            margin: 10px;  
+      }
+
+      .play-offer{
+            font-size: 38px;
+            font-weight: 500;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            
       }
 }

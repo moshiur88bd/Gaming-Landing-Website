@@ -275,6 +275,41 @@ padding-right: 10px;
 }
 
 
+/* anytime section style  */
+.anytime-section{
+      display: flex;
+      margin: 20px 240px;
+      gap: 50px;
+}
+
+.img-4{
+      position: relative;
+      bottom: 200px;
+      left: 500px;
+      border: 0.25px solid #b0afb34d;
+      border-radius: 8px;
+}
+
+.anytime-container{
+      margin-top: 100px;
+      margin-left: 20px;
+}
+.anytime-title{
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-align: left;
+      color: #FF42A5;
+      margin: 0;
+}
+.anytime-title2{
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-align: left;
+      color: #0B0223;
+      margin: 0;
+}
+
+
 
 
 

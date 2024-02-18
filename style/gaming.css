@@ -147,7 +147,7 @@ padding-right: 10px;
       font-weight: 700;
       text-align: right;
       color: #F948B2;
-      margin: 0 10px;
+      margin: 100px 10px 10px 10px;
 }
 
 .gamer-description{
@@ -309,6 +309,95 @@ padding-right: 10px;
       margin: 0;
 }
 
+/* careers related style  */
+
+.careers-section{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: flex-start;
+      background-color: #FF42A5;
+      padding: 50px 240px;
+}
+
+.careers-img img{
+      margin-top: 100px;
+      width: 100%;
+}
+
+.careers-title{
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-align: left;
+      color: #FFFFFF;
+      margin-top: 100px;
+      margin-bottom: 5px;
+}
+.careers-description{
+      font-size: 1.2rem;
+      font-weight: 400;
+      text-align: left;
+      color: #FFFFFF;
+}
+.careers-skill{
+      display: flex;
+      justify-content: space-between;
+}
+
+.skill-name-1{
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-align: left;
+      color: #FFFFFF;
+}
+.skill-name-2{
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-align: right;
+      color: #FFFFFF;
+}
+
+.btn-position{
+      background-color: #FFFFFF;
+      border: 0;
+      border-radius: 48px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #FF42A5;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 21px 40px;
+}
+
+/* game store related style  */
+
+.game-store-container-1{
+      display: flex;
+      gap: 05px;
+      flex-wrap: wrap;
+      margin: 100px 200px;
+      justify-content: space-around;
+}
+.game-name{
+      display: flex;
+      gap: 10px;
+      padding-bottom: 30px;
+}
+
+.game-name:hover{
+      border: 3px solid #FF42A5;;
+      border-radius: 20px;
+      color: #FF42A5;;
+      margin-bottom: 0;
+      padding-bottom: 0px;
+      animation: none;
+}
+
+.game-title{
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: left;
+      color: #0B0223;
+}
 
 
 
@@ -420,5 +509,48 @@ padding-right: 10px;
       .img-2{
             display: none;
             align-items: center;
+      }
+
+      .careers-section{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 20px;
+            margin: 20px;
+            font-size: 1rem;
+      }
+
+      .skill-name-2, .skill-name-1{
+            font-size: 1rem;
+            font-weight:500;
+      }
+
+      .careers-img img{
+            margin-top: 20px;
+            width: 100%;
+      }
+     .game-store-container-1{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            margin: 50px;
+            justify-content: space-around;
+      }
+      .game-name img{
+            width: 30px;
+            height: 30px;
+      }
+
+      .game-name{
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            
+      }
+      .game-title{
+            font-size: 1rem;
+            font-weight: 400;
+            padding-bottom: 0px;
+            margin: 0;
       }
 }
